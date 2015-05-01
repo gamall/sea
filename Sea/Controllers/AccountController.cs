@@ -8,10 +8,10 @@ using System.Web.Security;
 using DotNetOpenAuth.AspNet;
 using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
-using Sea.Filters;
-using Sea.Models;
+using Sea.Web.Filters;
+using Sea.Web.Models;
 
-namespace Sea.Controllers
+namespace Sea.Web.Controllers
 {
     [Authorize]
     [InitializeSimpleMembership]

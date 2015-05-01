@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Sea.Controllers
+namespace Sea.Web.Controllers
 {
     public class HomeController : Controller
     {

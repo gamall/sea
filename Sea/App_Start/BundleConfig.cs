@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Sea
+namespace Sea.Web
 {
     public class BundleConfig
     {
