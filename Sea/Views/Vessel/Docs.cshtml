@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Sea.Web.Models.VesselDocumentModels>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Vessel Docs</title>
+</head>
+<body>
+    <div>
+        <table>
+            @{
+                foreach (var doc in Model)
+                {
+                     <tr>
+                         <td>@doc.VesselGUID</td>
+                         <td>@doc.VesselName</td>
+                         <td>@doc.DocCount</td>
+                     </tr>
+                }
+            }
+        </table>
+    </div>
+</body>
+</html>

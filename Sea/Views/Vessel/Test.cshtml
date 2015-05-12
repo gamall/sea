@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Sea.Core.Vessel>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Test</title>
+</head>
+<body>
+    <div>
+        <h1>test</h1>
+        <table>
+            @{
+                foreach (var vessel in Model)
+                {
+                    <tr>
+                        <td>@vessel.VesselGUID</td>
+                        <td>@vessel.Name</td>
+                        <td>@vessel.VesselDocuments.Count</td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+</body>
+</html>
