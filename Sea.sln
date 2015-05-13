@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sea.Web", "Sea\Sea.Web.csproj", "{78658AA4-16F5-47D9-9B85-139AF64A6463}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sea.Web", "Sea.Web\Sea.Web.csproj", "{78658AA4-16F5-47D9-9B85-139AF64A6463}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sea.Tests", "Sea.Tests\Sea.Tests.csproj", "{1DA1F316-9EED-4385-8FF4-028DD7FAC361}"
 EndProject

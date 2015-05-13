@@ -123,7 +123,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sea\Sea.Web.csproj">
+    <ProjectReference Include="..\Sea.Web\Sea.Web.csproj">
       <Project>{78658AA4-16F5-47D9-9B85-139AF64A6463}</Project>
       <Name>Sea.Web</Name>
     </ProjectReference>
